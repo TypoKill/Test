@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>RoulCoin Главная</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1 class="text-click-edit" id="clicktext">Кликов сделано: 0</h1>
+	<button type="button" class="btn btn-success click-button-edit" id="clickbutton">Клик! </button>
+		<!-- Пример одиночной опасной кнопки -->
+		<div class="btn-group drop-down-list-edit" id="dropdownlist">
+		<button type="button" class="btn btn-secondary dropdown-toggle drop-down-list-open-button-edit" id="dropdownlistopenbutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		Разное
+		</button>
+		<div class="dropdown-menu drop-down-open-menu-edit" id="dropdownopenmenu">
+			<a class="dropdown-item drop-down-item-open-button-1-edit" id="dropdownitemopenbutton1" href="#">1). Топы</a>
+			<a class="dropdown-item drop-down-item-open-button-2-edit" id="dropdownitemopenbutton2" href="#">2). Реферальная система</a>
+			<a class="dropdown-item drop-down-item-open-button-3-edit" id="dropdownitemopenbutton3" href="#">3). Бесполезная кнопка</a>
+		<div class="dropdown-divider drop-down-divider-edit" id="dropdowndivider"></div>
+			<a class="dropdown-item drop-down-item-open-button-4-edit" id="dropdownitemopenbutton4" href="#">4). Настройки</a>
+		</div>
+		</div>
+	<button type="button" class="btn btn-warning open-shop-button-edit" id="openshopbutton">Магазин</button>
+	<button type="button" class="btn btn-primary open-exchange-button-edit" id="openexchangebutton">Биржа</button>
+	<button type="button" class="btn btn-danger administratorskaya-panel-open-button-edit" id="administratorskayapanelopenbutton" disabled>Администраторская панель</button>
+	<h1 class="shop-text-edit hidden" id="shoptext">Ваш баланс: 0</h1>
+	<button type="button" class="btn btn-primary exit-shop-button-edit hidden" id="exitshopbutton">Назад</button>
+	<div class="card card-1-edit hidden" id="card1" style="width: 8rem; height: 25rem; top: 50px; left: 5px">
+		<img src="images/card-image-top-1.jpg" class="card-img-top card-image-top-1-edit hidden" id="cardimagetop1" alt="...">
+		<div class="card-body card-body-1-edit hidden" id="cardbody1">
+		<h5 class="card-title card-title-1-edit hidden" id="cardtitle1">Улучшение №1</h5>
+		<p class="card-text card-text-1-edit hidden" id="cardtext1">Кликаете 1 раз, получаете 2 RoulCoin'а</p>
+		<a href="#" class="btn btn-primary upgrade-button-1-edit hidden" id="upgradebutton1">Купить!</a>
+	</div>
+	</div>
+	<div class="card card-2-edit hidden" id="card2" style="width: 8rem; height: 25rem; bottom: 350px; left: 135px">
+		<img src="images/card-image-top-2.jpg" class="card-img-top card-image-top-2-edit hidden" id="cardimagetop2" alt="...">
+		<div class="card-body card-body-2-edit hidden" id="cardbody2">
+		<h5 class="card-title card-title-2-edit hidden" id="cardtitle2">Улучшение №1</h5>
+		<p class="card-text card-text-2-edit hidden" id="cardtext2">Кликаете 1 раз, получаете 2 RoulCoin'а</p>
+		<a href="#" class="btn btn-primary upgrade-button-2-edit hidden" id="upgradebutton2">Купить!</a>
+	</div>
+	</div>
+	<div class="card card-3-edit hidden" id="card3" style="width: 8rem; height: 25rem; bottom: 750px; left: 265px">
+		<img src="images/card-image-top-3.jpg" class="card-img-top card-image-top-3-edit hidden" id="cardimagetop3" alt="...">
+		<div class="card-body card-body-3-edit hidden" id="cardbody3">
+		<h5 class="card-title card-title-3-edit hidden" id="cardtitle3">Улучшение №1</h5>
+		<p class="card-text card-text-3-edit hidden" id="cardtext3">Кликаете 1 раз, получаете 2 RoulCoin'а</p>
+		<a href="#" class="btn btn-primary upgrade-button-3-edit hidden" id="upgradebutton3">Купить!</a>
+	</div>
+	</div>
+	<div class="card card-4-edit hidden" id="card4" style="width: 8rem; height: 25rem; bottom: 1150px; left: 395px">
+		<img src="images/card-image-top-4.jpg" class="card-img-top card-image-top-4-edit hidden" id="cardimagetop4" alt="...">
+		<div class="card-body card-body-4-edit hidden" id="cardbody4">
+		<h5 class="card-title card-title-4-edit hidden" id="cardtitle4">Улучшение №1</h5>
+		<p class="card-text card-text-4-edit hidden" id="cardtext4">Кликаете 1 раз, получаете 2 RoulCoin'а</p>
+		<a href="#" class="btn btn-primary upgrade-button-4-edit hidden" id="upgradebutton4">Купить!</a>
+	</div>
+	</div>
+	<div class="card card-5-edit hidden" id="card5" style="width: 8rem; height: 25rem; top: 50px; left: 5px">
+		<img src="images/card-image-top-5.jpg" class="card-img-top card-image-top-5-edit hidden" id="cardimagetop5" alt="...">
+		<div class="card-body card-body-5-edit hidden" id="cardbody5">
+		<h5 class="card-title card-title-5-edit hidden" id="cardtitle5">Улучшение №1</h5>
+		<p class="card-text card-text-5-edit hidden" id="cardtext5">Кликаете 1 раз, получаете 2 RoulCoin'а</p>
+		<a href="#" class="btn btn-primary upgrade-button-5-edit hidden" id="upgradebutton5">Купить!</a>
+	</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
+</body>
+</html>

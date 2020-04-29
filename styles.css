@@ -1,0 +1,93 @@
+body{
+	text-align:center;
+	background: url(images/website-background.jpg);
+}
+
+.text-click-edit {
+	color:#FFFFFF;
+	font-size: 25px;
+	font-family: Decadance Cursiv
+}
+
+.click-button-edit {
+	color:#FFFFFF;
+	font-family: Decadance Cursiv
+}
+
+.drop-down-list-edit {
+	position:absolute;
+	left: 5px;
+	color:#FFFFFF;
+	font-family: Decadance Cursiv
+}
+
+.drop-down-list-open-button-edit {
+	position:absolute;
+	left: 5px;
+	color:#FFFFFF;
+	font-family: Decadance Cursiv
+}
+
+.drop-down-open-menu-edit {
+	color:#FFFFFF;
+	font-family: Decadance Cursiv
+}
+
+.drop-down-item-open-button-1-edit {
+	font-family: Decadance Cursiv
+}
+
+.drop-down-item-open-button-2-edit {
+	font-family: Decadance Cursiv
+}
+
+.drop-down-item-open-button-3-edit {
+	font-family: Decadance Cursiv
+}
+
+.drop-down-divider-edit {
+	font-family: Decadance Cursiv
+}
+
+.drop-down-item-open-button-4-edit {
+	font-family: Decadance Cursiv
+}
+
+.open-shop-button-edit {
+	position:absolute;
+	left: 110px;
+	color:#FFFFFF;
+	font-family: Decadance Cursiv
+}
+
+.open-exchange-button-edit {
+	position:absolute;
+	left: 203px;
+	color:#FFFFFF;
+	font-family: Decadance Cursiv
+}
+
+.administratorskaya-panel-open-button-edit {
+	position:absolute;
+	left: 400px;
+	top: 450px;
+	color:#FFFFFF;
+	font-family: Decadance Cursiv
+}
+
+.shop-text-edit {
+	color:#FFFFFF;
+	font-size: 25px;
+	font-family: Decadance Cursiv
+}
+
+.exit-shop-button-edit {
+	position:absolute;
+	left: 5px;
+	color:#FFFFFF;
+	font-family: Decadance Cursiv
+}
+
+.hidden {
+	display:none;
+}
